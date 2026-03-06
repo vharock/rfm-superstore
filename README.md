@@ -70,8 +70,12 @@ c. product.csv → Detalhes dos produtos
 d. location.csv → Detalhes da localização
 
 
-![Grafico 1](img/rfm.png)
-
+![rfm](img/rfm.jpg)
+![img1](img1/rfm.jpg)
+![img2](img2/rfm.jpg)
+![img3](img3/rfm.jpg)
+![img4](img4/.jpg)
+![img5](img5/.jpg)
 
 
 
