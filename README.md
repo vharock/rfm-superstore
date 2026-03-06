@@ -70,7 +70,7 @@ c. product.csv → Detalhes dos produtos
 d. location.csv → Detalhes da localização
 
 
-![Grafico 1](img/rfm.jgp)
+![Grafico 1](img/rfm.png)
 
 
 
