@@ -1,18 +1,41 @@
-# rfm-superstore
-Classificação dos clientes 
+# Análise-Superstore
+Retenção e classificação dos clientes 
 
 # Problema de Negócio
 A SuperStore é uma rede de supermercados com várias unidades físicas espalhadas por todo o país, com o objetivo de fornecer alimentos e comercializar
-os mais diversos produtos para consumo. Recentemente, o time de dados desenvolveu uma análise de Cohort para acompanhar a retenção dos clientes da rede e revelando números bons para alguns Cohorts e ruim para outros. Como essa informação, os gerentes resolveram fazer ações distintas para grupos específicos de clientes, afim de aumentar a taxa de retenção da empresa. Porém, ele não sabem como segmentar a base de clientes em grupos e nem qual seria a
-necessidade para planejar a ação. 
+os mais diversos produtos para consumo. Recentemente, o time de dados desenvolveu uma análise de Cohort para acompanhar a retenção dos clientes da rede e revelando números bons para alguns Cohorts e ruim para outros. Como essa informação, os gerentes resolveram fazer ações distintas para grupos específicos de clientes, afim de aumentar a taxa de retenção da empresa. Porém, ele não sabem como segmentar a base de clientes em grupos e nem qual seria a necessidade para planejar a ação. 
 
 # Contexto
 
-Esse desafio chegou até o time de dados que precisar segmentar a base de clientes, criando grupo menores com necessidades específicas para uma ação mais precisa do time de Marketing e Produtos. O seu próximo problema de negócio é criar uma
-segmentação de clientes e explicar as área de negócio, como Marketing, Vendas e Produto, a necessidade de cada grupo e quais ações poderiam ser feitas para
+Esse desafio chegou até o time de dados que precisar segmentar a base de clientes, criando grupo menores com necessidades específicas para uma ação mais precisa do time de Marketing e Produtos. O seu próximo problema de negócio é criar uma segmentação de clientes e explicar as área de negócio, como Marketing, Vendas e Produto, a necessidade de cada grupo e quais ações poderiam ser feitas para
 aumentar a retenção.
 
 # Premissas da análise
+
+A Análise de Cohort é uma técnica analítica que agrupa indivíduos ou  eventos com características comuns durante um determinado período para observar seu comportamento ao longo do tempo. Essa abordagem ajuda a entender como diferentes segmentos de clientes ou usuários se comportam após uma ação inicial, como uma compra ou uma visita a
+uma loja.
+
+Um Cohort é um grupo de indivíduos ou eventos que compartilham uma característica comum em um determinado momento. No contexto da SuperStore, um cohort pode ser composto por clientes que realizaram sua primeira compra em um mesmo mês ou semana. A ideia é acompanhar o comportamento desses clientes ao longo do tempo para
+entender sua lealdade, frequência de compras e retenção. 
+
+A definição de um cohort depende do objetivo da análise. No caso da SuperStore, que está interessada em melhorar a retenção de clientes, os cohorts podem ser definidos com base na data da primeira compra. Por exemplo, pode-se criar um cohort de todos os clientes que compraram pela primeira vez em janeiro e acompanhar como eles continuam a comprar nos meses subsequentes. Outros exemplos de definição de cohorts incluem:
+1. Data da primeira compra.
+2. Data de registro em um programa de fidelidade.
+3. Primeiro uso de um cupom de desconto
+
+A Análise de Cohort permite identificar padrões de comportamento ao longo do tempo, ajudando a responder perguntas como: "Os clientes que compraram no mês X continuam comprando nos meses seguintes?", "Qual é a taxa de retenção ao longo dos meses?", "Em qual momento os clientes começam a abandonar a SuperStore?" No contexto de retenção de clientes, a função da Análise de Cohort é mostrar se e quando os clientes estão deixando de comprar, permitindo à SuperStore implementar estratégias para melhorar a fidelidade e reduzir a perda de clientes.
+
+Coletar dados: Organize os dados de compras de clientes em uma tabela no Excel. Certifique-se de incluir a data da primeira compra de cada cliente, assim como suas compras subsequentes.
+Definir cohorts: Crie colunas que agrupem os clientes com base na data da primeira compra. Por exemplo, crie uma coluna para o mês em que o cliente fez sua primeira compra.
+Montar a tabela de cohort: Crie uma tabela que mostre os clientes agrupados por mês de primeira compra e o comportamento de compra nos meses subsequentes. Cada linha representará um cohort (por exemplo, clientes de janeiro), e cada coluna representará o número de meses após a primeira compra (Mês 1, Mês 2, Mês 3, etc.).
+Calcular a retenção: Preencha a tabela calculando a porcentagem de clientes que continuaram comprando nos meses seguintes, em relação ao total inicial de cada cohort.
+Visualizar os dados: Crie gráficos para visualizar o comportamento dos cohorts. Um gráfico de calor (heatmap) é uma ótima maneira de visualizar os dados, destacando claramente os padrões de retenção.
+Analisar os resultados: Interprete o gráfico, buscando identificar quando os clientes começam a abandonar e quais cohorts apresentam maior ou menor retenção.
+
+![img6](img/img6.jpg)
+![img7](img/img7.jpg)
+
+
 
 Análise Descritiva:
 Recência: Coluna “Order Date” - Tempo desde a última compra
