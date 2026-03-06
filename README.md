@@ -71,11 +71,11 @@ d. location.csv → Detalhes da localização
 
 
 ![rfm](img/rfm.jpg)
-![img1](img1/rfm.jpg)
-![img2](img2/rfm.jpg)
-![img3](img3/rfm.jpg)
-![img4](img4/.jpg)
-![img5](img5/.jpg)
+![img1](img/img1.jpg)
+![img2](img/img2.jpg)
+![img3](img/img3.jpg)
+![img4](img/img4.jpg)
+![img5](img/img5.jpg)
 
 
 
