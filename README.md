@@ -83,12 +83,14 @@ Passo 2: Planejar o Processo
 5. Dar as notas para a Monetrização 
 6. Combinar Frequência e Monetização
 7. Atribuir cada usuário para um segmento
-![img1](img/img1.jpg)
-![img2](img/img2.jpg)
 ![rfm](img/rfm.jpg)
 ![img3](img/img3.jpg)
-   
+![img1](img/img1.jpg)
+![img2](img/img2.jpg)
+
+
 8. Interpretar o resultado
+    
 ![img4](img/img4.jpg)
 ![img5](img/img5.jpg)
    
