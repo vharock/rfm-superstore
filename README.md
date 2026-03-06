@@ -33,7 +33,7 @@ e. Visualizar os dados: Crie gráficos para visualizar o comportamento dos cohor
 f. Analisar os resultados: Interprete o gráfico, buscando identificar quando os clientes começam a abandonar e quais cohorts apresentam maior ou menor retenção.
 
 ![img6](img/img6.jpg)
-![img7](img/img7.jpg)
+![img9](img/img9.jpg)
 
 
 
