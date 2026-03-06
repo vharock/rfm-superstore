@@ -25,12 +25,12 @@ A definição de um cohort depende do objetivo da análise. No caso da SuperStor
 
 A Análise de Cohort permite identificar padrões de comportamento ao longo do tempo, ajudando a responder perguntas como: "Os clientes que compraram no mês X continuam comprando nos meses seguintes?", "Qual é a taxa de retenção ao longo dos meses?", "Em qual momento os clientes começam a abandonar a SuperStore?" No contexto de retenção de clientes, a função da Análise de Cohort é mostrar se e quando os clientes estão deixando de comprar, permitindo à SuperStore implementar estratégias para melhorar a fidelidade e reduzir a perda de clientes.
 
-Coletar dados: Organize os dados de compras de clientes em uma tabela no Excel. Certifique-se de incluir a data da primeira compra de cada cliente, assim como suas compras subsequentes.
-Definir cohorts: Crie colunas que agrupem os clientes com base na data da primeira compra. Por exemplo, crie uma coluna para o mês em que o cliente fez sua primeira compra.
-Montar a tabela de cohort: Crie uma tabela que mostre os clientes agrupados por mês de primeira compra e o comportamento de compra nos meses subsequentes. Cada linha representará um cohort (por exemplo, clientes de janeiro), e cada coluna representará o número de meses após a primeira compra (Mês 1, Mês 2, Mês 3, etc.).
-Calcular a retenção: Preencha a tabela calculando a porcentagem de clientes que continuaram comprando nos meses seguintes, em relação ao total inicial de cada cohort.
-Visualizar os dados: Crie gráficos para visualizar o comportamento dos cohorts. Um gráfico de calor (heatmap) é uma ótima maneira de visualizar os dados, destacando claramente os padrões de retenção.
-Analisar os resultados: Interprete o gráfico, buscando identificar quando os clientes começam a abandonar e quais cohorts apresentam maior ou menor retenção.
+a. Coletar dados: Organize os dados de compras de clientes em uma tabela no Excel. Certifique-se de incluir a data da primeira compra de cada cliente, assim como suas compras subsequentes.
+b. Definir cohorts: Crie colunas que agrupem os clientes com base na data da primeira compra. Por exemplo, crie uma coluna para o mês em que o cliente fez sua primeira compra.
+c. Montar a tabela de cohort: Crie uma tabela que mostre os clientes agrupados por mês de primeira compra e o comportamento de compra nos meses subsequentes. Cada linha representará um cohort (por exemplo, clientes de janeiro), e cada coluna representará o número de meses após a primeira compra (Mês 1, Mês 2, Mês 3, etc.).
+d. Calcular a retenção: Preencha a tabela calculando a porcentagem de clientes que continuaram comprando nos meses seguintes, em relação ao total inicial de cada cohort.
+e. Visualizar os dados: Crie gráficos para visualizar o comportamento dos cohorts. Um gráfico de calor (heatmap) é uma ótima maneira de visualizar os dados, destacando claramente os padrões de retenção.
+f. Analisar os resultados: Interprete o gráfico, buscando identificar quando os clientes começam a abandonar e quais cohorts apresentam maior ou menor retenção.
 
 ![img6](img/img6.jpg)
 ![img7](img/img7.jpg)
@@ -103,6 +103,19 @@ d. location.csv → Detalhes da localização
 
 # Conclusão
 
+## Cohort: Meses de Maior e Menor Retenção
+Considerando 6 meses de maturação, o melhor cohort do ano de 2014 é o mês de maio com retenção de 11%.
+Considerando 6 meses de maturação, o melhor cohort do ano de 2015 é o mês de junho com retenção média de 18%. 
+Com isso podemos perceber um aumento de 7% de retenção ao comparar os 6 primeiros meses de cada ano.
+Considerando 1 mês de maturação o melhor foi em agosto de 2015 com 25% de retenção, 1% a mais do que o melhor cohort de 2014 que foi em novembro com retenção de 24%.
+Em ambos os anos de 2014 e 2015 obtiveram a menor retenção média de 5% para os meses de janeiro e fevereiro respectivamente. 
+
+Fatores sazonais podem impactar significativamente a retenção de clientes de uma empresa. Essas variações cíclicas afetam diretamente o comportamento de compra, a experiência do cliente e a estabilidade financeira do negócio.
+Principais fatores sazonais: datas comemorativas e eventos especiais, férias e períodos de baixa atividade, oscilações econômicas e comportamento do consumidor, mudanças climáticas e estações do ano. 
+Considerando esses fatores, observando a baixa retenção da SuperStore especialmente no início de cada ano, é essencial adotar estratégias como: promoções exclusivas de virada de ano, criar programas de fidelidade e recompensas, cupons de descontos para recompras.
+Implementando essas estratégias, A SuperStore pode não apenas aumentar a retenção nos primeiros meses do ano, mas também estabelecer uma base sólida de clientes fiéis ao longo do tempo.
+
+## RFM: Segmentos de Clientes Prioritários
 Campeões:
 Identificamos 4% dos clientes como “Campeões”, caracterizados por
 compras frequentes, valores elevados e recência baixa (última compra
