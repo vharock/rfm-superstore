@@ -53,14 +53,22 @@ Tabela>Customer ID, Recencia,Frequencia, Monetizacao, Nome do Segmento
 
 Passo 2: Planejar o Processo
 1. União das tabelas
+![img0](img/img0.jpg)
 2. Criar a tabela de Segmentos
 3. Dar as notas para a Recência
 4. Dar as notas para a Frequência
-5. Dar as notas para a Monetrização
+5. Dar as notas para a Monetrização 
 6. Combinar Frequência e Monetização
 7. Atribuir cada usuário para um segmento
+![img1](img/img1.jpg)
+![img2](img/img2.jpg)
+![rfm](img/rfm.jpg)
+![img3](img/img3.jpg)
+   
 8. Interpretar o resultado
-9. Responder a pergunta de negócio
+![img4](img/img4.jpg)
+![img5](img/img5.jpg)
+   
 
 Passo 3: Identificar as Entradas
 1. Fonte de Dados:
@@ -70,12 +78,27 @@ c. product.csv → Detalhes dos produtos
 d. location.csv → Detalhes da localização
 
 
-![rfm](img/rfm.jpg)
-![img1](img/img1.jpg)
-![img2](img/img2.jpg)
-![img3](img/img3.jpg)
-![img4](img/img4.jpg)
-![img5](img/img5.jpg)
+# Conclusão
+
+Campeões:
+Identificamos 4% dos clientes como “Campeões”, caracterizados por
+compras frequentes, valores elevados e recência baixa (última compra
+recente).
+
+Clientes em Risco:
+Cerca de 8% dos clientes estão neste segmento, com alta recência e
+baixa frequência de compras. 
+
+Fieis Potencial:
+40% de nossos clientes estão com pedidos recentes em alta, porém seu ticket médio está baixo.
+
+Recomendação:
+Para os “Campeões”, ofereça benefícios exclusivos, como acesso antecipado a promoções e programas VIP.
+
+Para os “Clientes em Risco”, implemente estratégias de reativação,como cupons de desconto ou comunicação personalizada.
+
+Para os “Fieis Potencial”, promoções com combos/kit de produtos que se complementam devem ajudar a aumentar o ticket médio do cliente.
+
 
 
 
